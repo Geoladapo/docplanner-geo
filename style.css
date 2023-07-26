@@ -1,0 +1,525 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+FIRST BOX: #00b39b
+SECOND BOX: #3d83df
+THIRD BOX: #1b2734
+SECONDARY COLOR: #d0faf4
+TEXT: #333
+TEXT: #747474
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-bo3x;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Comic Neue", sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2.4rem;
+}
+
+.header img {
+  width: 26.8rem;
+  height: 3.3rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ababab;
+  font-weight: 400;
+  margin-right: 3rem;
+  font-size: 1.8rem;
+}
+
+.nav-links a:first-child {
+  color: #00b39b;
+}
+
+.nav-links a:hover {
+  color: #00b39b;
+}
+
+/* HEAD SECTION */
+
+.head-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.head-section img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.head-section-ptext {
+  font-size: 3.2rem;
+  color: #00b39b;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+.head-section-stext {
+  display: flex;
+  justify-content: space-between;
+  color: #747474;
+  font-size: 1.6rem;
+  align-items: center;
+  padding-top: 3rem;
+  width: 100%;
+  padding-left: 26rem;
+  padding-right: 28rem;
+}
+
+.p1 {
+  margin-right: 3rem;
+}
+
+/* CARD SECTION */
+
+.card {
+  display: flex;
+  gap: 25px;
+  margin: 80px auto 3.2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.2;
+  max-width: 1015px;
+  padding: 0 2rem;
+  position: relative;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card-details1 {
+  background-color: #00ccb1;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+  height: 34.3rem;
+}
+.card-details-icon {
+  width: 2.4rem;
+}
+
+.card-title1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin: 3rem 0;
+}
+
+.card-desc1 {
+  font-size: 2.4rem;
+  margin: 0 0 1rem;
+}
+
+.card-details1 select {
+  background-color: #00ccb1;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card-details2 {
+  background-color: #3d83df;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+  height: 34.5rem;
+}
+
+.card-details-icon {
+  width: 2.4rem;
+}
+
+.card-title2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin: 3rem 0;
+}
+
+.card-desc2 {
+  font-size: 2.4rem;
+  margin: 0 0 1rem;
+}
+
+.card-details2 select {
+  background-color: #3d83df;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card-details3 {
+  background-color: #1b2734;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+  height: 34.5rem;
+}
+
+.card-details-icon {
+  width: 2.4rem;
+}
+
+.card-title3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin: 3rem 0;
+}
+
+.card-desc3 {
+  font-size: 2.4rem;
+  margin: 0 0 2rem;
+}
+
+.card-details3 select {
+  background-color: #1b2734;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* FEATURES */
+.features {
+  margin-top: 8rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.features > div {
+  display: flex;
+  width: 60%;
+}
+
+.features-text {
+  display: flex;
+  width: 96%;
+  font-size: 2.4rem;
+  color: #00b39b;
+  padding-right: 1rem;
+  margin: 2.4rem 0 3.2rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+.features-logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.features-logo img {
+  width: 8rem;
+  object-fit: contain;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+  width: 100%;
+  background-color: #d0faf4;
+  margin-top: 8rem;
+  padding-left: 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonia-tex1 {
+  padding-top: 6rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.testimonia-tex1 h2 {
+  color: #00b39b;
+  font-weight: 300;
+  padding-left: 5rem;
+}
+
+.testimonia-tex1 p {
+  padding-left: 5rem;
+  padding-top: 2rem;
+  font-size: 16px;
+  color: #747474;
+  padding-bottom: 5rem;
+}
+
+.testimonial-parts {
+  display: flex;
+  margin: 0 5rem 0 10rem;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.testimonial-parts div {
+  height: 50rem;
+  width: 25rem;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 3.6rem 0 0;
+}
+
+.leader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 22rem;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
+.leader img {
+  width: 2.5rem;
+}
+
+.testimonial-parts h3 {
+  font-size: 3rem;
+  color: #00b39b;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  margin: 2rem 0 1rem 0;
+}
+
+.testimonial-parts p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+  margin-bottom: 1rem;
+}
+
+.patient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 22rem;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
+.patient img {
+  width: 2.5rem;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 22rem;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
+.appointments img {
+  width: 2.5rem;
+}
+
+.doctors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 22rem;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
+.doctors img {
+  width: 2.5rem;
+}
+
+/* IMPROVE */
+.improve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 8rem;
+}
+
+.improve h3 {
+  font-size: 3.2rem;
+  color: #00b39b;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.improve p {
+  margin: 1.6rem 0;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+  line-height: 1.7;
+}
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.gallery-country {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 10rem 15rem;
+}
+
+.gallery div {
+  border-radius: 3%;
+  margin: 4px;
+}
+
+.gallery-country--card:hover {
+  background-color: #fff;
+  box-shadow: 0 0 15px #ababab;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.buttons a {
+  text-decoration: none;
+  background-color: #3d83df;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.last-card {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  justify-content: center;
+}
+
+/* JOIN US */
+
+.joinUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2rem;
+}
+
+.joinUs h1 {
+  font-size: 3.2rem;
+  color: #747474;
+  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
+  margin: 3rem 0;
+}
+
+.joinUs a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3d83df;
+  border-radius: 4px;
+  padding: 1.2rem 1.4rem;
+  margin-left: 12rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.3px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: #ababab;
+  padding: 0 10rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+footer p {
+  padding-top: 2rem;
+}
